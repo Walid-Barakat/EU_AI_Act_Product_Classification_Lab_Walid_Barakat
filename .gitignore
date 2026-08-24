@@ -1,0 +1,31 @@
+# Credentials and local configuration
+.env
+.env.*
+*.pem
+*.key
+credentials*.json
+secrets*.json
+
+# Local development environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+node_modules/
+
+# Operating-system and editor metadata
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dumps, temporary files, and packaged archives
+*.log
+*.tmp
+*.bak
+*.zip
+*.tar
+*.tar.gz
+
